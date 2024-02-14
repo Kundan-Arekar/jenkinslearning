@@ -21,7 +21,7 @@ pipeline {
             steps {
                 // Replace this with your deployment steps
                 // This could involve copying files to a server, running a deployment script, etc.
-                'echo "Deploying the application..."'
+                echo "Deploying the application..."
             }
         }
     }
