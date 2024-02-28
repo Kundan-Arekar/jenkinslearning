@@ -1,8 +1,8 @@
 pipeline {
     agent none
-    	
- 	node('node1'){
+    	 	
     stages {
+node('node1'){
         stage('Checkout Code') {
             steps {
                 git branch: 'main', credentialsId: 'github-credentials', url: 'https://github.com/Kundan-Arekar/jenkinslearning.git'
