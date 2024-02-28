@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-28T15:25:29Z" name="Suite" finished-at="2024-02-28T15:25:29Z" duration-ms="24">
+  <suite started-at="2024-02-28T15:37:45Z" name="Suite" finished-at="2024-02-28T15:37:45Z" duration-ms="35">
     <groups>
     </groups>
-    <test started-at="2024-02-28T15:25:29Z" name="Test" finished-at="2024-02-28T15:25:29Z" duration-ms="24">
+    <test started-at="2024-02-28T15:37:45Z" name="Test" finished-at="2024-02-28T15:37:45Z" duration-ms="35">
       <class name="SmokeTest.Smoke">
-        <test-method signature="test()[pri:0, instance:SmokeTest.Smoke@18a70f16]" started-at="2024-02-28T15:25:29Z" name="test" finished-at="2024-02-28T15:25:29Z" duration-ms="0" status="PASS">
+        <test-method signature="test()[pri:0, instance:SmokeTest.Smoke@564718df]" started-at="2024-02-28T15:37:45Z" name="test" finished-at="2024-02-28T15:37:45Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- SmokeTest.Smoke -->
       <class name="RegressionTest.Regression">
-        <test-method signature="test()[pri:0, instance:RegressionTest.Regression@51b7e5df]" started-at="2024-02-28T15:25:29Z" name="test" finished-at="2024-02-28T15:25:29Z" duration-ms="5" status="PASS">
+        <test-method signature="test()[pri:0, instance:RegressionTest.Regression@2b4a2ec7]" started-at="2024-02-28T15:37:45Z" name="test" finished-at="2024-02-28T15:37:45Z" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
