@@ -1,6 +1,7 @@
 pipeline {
-    agent any
-    	node('node1'){
+    agent none
+    	
+ 	node('node1'){
     stages {
         stage('Checkout Code') {
             steps {
