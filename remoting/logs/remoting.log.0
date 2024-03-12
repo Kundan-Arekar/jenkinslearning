@@ -1,92 +1,22 @@
-Feb 28, 2024 7:36:06 PM hudson.remoting.jnlp.Main createEngine
+Mar 06, 2024 7:30:22 AM hudson.remoting.jnlp.Main createEngine
 INFO: Setting up agent: node1
-Feb 28, 2024 7:36:06 PM hudson.remoting.Engine startEngine
+Mar 06, 2024 7:30:22 AM hudson.remoting.Engine startEngine
 INFO: Using Remoting version: 3071.v7e9b_0dc08466
-Feb 28, 2024 7:36:06 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+Mar 06, 2024 7:30:22 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
 INFO: Using C:\Users\Kundan_Arekar\JenkinsLearning\remoting as a remoting work directory
-Feb 28, 2024 7:36:07 PM hudson.remoting.jnlp.Main$CuiListener status
+Mar 06, 2024 7:30:22 AM hudson.remoting.jnlp.Main$CuiListener status
 INFO: WebSocket connection open
-Feb 28, 2024 7:36:07 PM hudson.remoting.jnlp.Main$CuiListener status
+Mar 06, 2024 7:30:22 AM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Connected
-Feb 28, 2024 8:10:52 PM hudson.remoting.jnlp.Main$CuiListener status
+Mar 06, 2024 8:00:07 AM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Read side closed
-Feb 28, 2024 8:10:52 PM hudson.remoting.jnlp.Main$CuiListener status
+Mar 06, 2024 8:00:07 AM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Terminated
-Feb 28, 2024 8:10:52 PM hudson.remoting.jnlp.Main$CuiListener status
+Mar 06, 2024 8:00:07 AM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Performing onReconnect operation.
-Feb 28, 2024 8:10:52 PM hudson.remoting.jnlp.Main$CuiListener status
+Mar 06, 2024 8:00:07 AM hudson.remoting.jnlp.Main$CuiListener status
 INFO: onReconnect operation completed.
-Feb 28, 2024 8:10:52 PM hudson.remoting.jnlp.Main$CuiListener status
+Mar 06, 2024 8:00:07 AM hudson.remoting.jnlp.Main$CuiListener status
 INFO: WebSocket connection open
-Feb 28, 2024 8:10:52 PM hudson.remoting.jnlp.Main$CuiListener status
-INFO: Connected
-Feb 28, 2024 8:16:38 PM org.jvnet.winp.Native loadByUrl
-WARNING: Failed to load DLL from static location
-java.lang.UnsatisfiedLinkError: Native Library C:\Users\Kundan_Arekar\JenkinsLearning\remoting\jarCache\ED\winp.x64.BFFE30B3B50581290B1866EF8D48C609.dll already loaded in another classloader
-	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:201)
-	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:174)
-	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2389)
-	at java.base/java.lang.Runtime.load0(Runtime.java:755)
-	at java.base/java.lang.System.load(System.java:1953)
-	at org.jvnet.winp.Native.loadDll(Native.java:253)
-	at org.jvnet.winp.Native.loadByUrl(Native.java:173)
-	at org.jvnet.winp.Native.load(Native.java:135)
-	at org.jvnet.winp.Native.<clinit>(Native.java:102)
-	at org.jvnet.winp.WinProcess.enableDebugPrivilege(WinProcess.java:230)
-	at hudson.util.ProcessTree$Windows.<clinit>(ProcessTree.java:728)
-	at hudson.util.ProcessTree.get(ProcessTree.java:465)
-	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1168)
-	at hudson.Launcher$RemoteLauncher$KillTask.call(Launcher.java:1158)
-	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
-	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
-	at hudson.remoting.Request$2.run(Request.java:377)
-	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:125)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-
-Feb 28, 2024 8:57:37 PM hudson.remoting.jnlp.Main$CuiListener status
-INFO: Read side closed
-Feb 28, 2024 8:57:37 PM hudson.remoting.jnlp.Main$CuiListener status
-INFO: Terminated
-Feb 28, 2024 8:57:37 PM hudson.remoting.jnlp.Main$CuiListener status
-INFO: Performing onReconnect operation.
-Feb 28, 2024 8:57:37 PM hudson.remoting.jnlp.Main$CuiListener status
-INFO: onReconnect operation completed.
-Feb 28, 2024 8:57:37 PM hudson.remoting.jnlp.Main$CuiListener status
-INFO: WebSocket connection open
-Feb 28, 2024 8:57:37 PM hudson.remoting.jnlp.Main$CuiListener status
-INFO: Connected
-Feb 28, 2024 9:04:22 PM hudson.remoting.jnlp.Main$CuiListener status
-INFO: Read side closed
-Feb 28, 2024 9:04:22 PM io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter processError
-SEVERE: Connection error has occurred
-java.io.IOException: An established connection was aborted by the software in your host machine
-	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.read0(Native Method)
-	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.run(WindowsAsynchronousSocketChannelImpl.java:518)
-	at java.base/sun.nio.ch.WindowsAsynchronousSocketChannelImpl.implRead(WindowsAsynchronousSocketChannelImpl.java:663)
-	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:276)
-	at java.base/sun.nio.ch.AsynchronousSocketChannelImpl.read(AsynchronousSocketChannelImpl.java:297)
-	at java.base/java.nio.channels.AsynchronousSocketChannel.read(AsynchronousSocketChannel.java:425)
-	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter._read(TransportFilter.java:279)
-	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:297)
-	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:279)
-	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
-	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
-	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-
-Feb 28, 2024 9:04:22 PM hudson.remoting.jnlp.Main$CuiListener status
-INFO: Terminated
-Feb 28, 2024 9:04:22 PM hudson.remoting.jnlp.Main$CuiListener status
-INFO: Performing onReconnect operation.
-Feb 28, 2024 9:04:22 PM hudson.remoting.jnlp.Main$CuiListener status
-INFO: onReconnect operation completed.
-Feb 28, 2024 9:04:22 PM hudson.remoting.jnlp.Main$CuiListener status
-INFO: WebSocket connection open
-Feb 28, 2024 9:04:22 PM hudson.remoting.jnlp.Main$CuiListener status
+Mar 06, 2024 8:00:07 AM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Connected
